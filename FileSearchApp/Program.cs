@@ -6,15 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Console.WriteLine("=== Демонстрация работы делегатов и событий ===\n");
-
-        // Демонстрация функции расширения GetMax
         DemonstrateGetMax();
-
-        //Console.WriteLine("\n" + new string('=', 50) + "\n");
+        
         Console.WriteLine();
 
-        // Демонстрация поиска файлов с использованием событий
         DemonstrateFileSearch();
 
         Console.WriteLine("\nНажмите любую клавишу для завершения...");
